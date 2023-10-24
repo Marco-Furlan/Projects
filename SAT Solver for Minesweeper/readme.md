@@ -44,3 +44,8 @@ $$\bigwedge_{\genfrac{}{}{0pt}{}{I \subset \\{ 1,2,\dots,n \\} }{ |I| = k+1 }} \
 
 This is done in the code [here](https://github.com/Marco-Furlan/Projects/blob/66f0673afd0b8d360c36bc8ef96e4a4463614b07/SAT%20Solver%20for%20Minesweeper/game.py#L90).
 
+To solve a set of propositions we import a SAT solver:
+```
+from pysat.solvers import Minisat22
+```
+
