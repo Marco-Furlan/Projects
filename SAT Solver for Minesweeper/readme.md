@@ -31,12 +31,12 @@ Which is equivalent to: "*exactly one among* $x,y,z$ *is true*" (that is, exactl
 
 <br/>
 
-More generally, any number we see in the board of a minesweeper game means "*exactly [...] of the neighbouring cells contains a bomb*". So we need a way to encode this information in boolean propositions.
+More generally, any number we see on the board of a minesweeper game means "*exactly [...] of the neighbouring cells contains a bomb*". So we need a way to encode this information in boolean propositions.
 
 Here's how: given $n$ propositional variables $x_1, x_2, \dots, x_n$, the proposition "*exactly k among* $x_1, x_2, \dots, x_n$ *are true*" can be written as the logical intersecion of:
 
 - "*at least k among* $x_1, x_2, \dots, x_n$ *are true*":
 
-$$$$
+$$\bigwedge\limits_{I \subset \{1,2, \dots, n\}, |I| = n-k+1 \bigvee\limits_{i \in I} x_i$$
 
 - "*at most k among* $x_1, x_2, \dots, x_n$ *are true*":
