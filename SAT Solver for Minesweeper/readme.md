@@ -37,6 +37,6 @@ Here's how: given $n$ propositional variables $x_1, x_2, \dots, x_n$, the propos
 
 - "*at least k among* $x_1, x_2, \dots, x_n$ *are true*":
 
-$$\bigwedge_{\substack{I \subset \left{ 1,2, \dots, n \right} \\ |I| = n-k+1}} \bigvee\limits_{i \in I} x_i$$
+$$\bigwedge_{\substack{I \subset \left\{ 1,2, \dots, n \right\} \\ |I| = n-k+1}} \bigvee\limits_{i \in I} x_i$$
 
 - "*at most k among* $x_1, x_2, \dots, x_n$ *are true*":
