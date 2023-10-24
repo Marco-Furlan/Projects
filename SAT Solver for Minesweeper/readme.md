@@ -20,4 +20,6 @@ We can call the empty cells $x, y, z$:
 
 ![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example2.png?raw=true>)
 
+The information given by the $1$ can therefore be encoded in the following way:
 
+$(x \vel y \vel z) \land ((\neg x \val \neg y) \land (\neg y \val \neg z) \land (\neg x \val \neg z))$
