@@ -31,7 +31,7 @@ Which is equivalent to: "*exactly one among* $x,y,z$ *is true*" (that is, exactl
 
 <br/>
 
-More generally, any number $N$ we see on the board of a minesweeper game means "*exactly* $N$ *of the neighboring cells contain a bomb*". So we need a way to encode this information in boolean propositions. Here's how: given $n$ propositional variables $x_1, x_2, \dots, x_n$, the proposition "*exactly k among* $x_1, x_2, \dots, x_n$ *are true*" can be written as the logical intersection of: [^2]
+More generally, any number $1 \leq N \leq 8$ we see on the board of a minesweeper game means "*exactly* $N$ *of the neighboring cells contain a bomb*". So we need a way to encode this information in boolean propositions. Here's how: given $n$ propositional variables $x_1, x_2, \dots, x_n$, the proposition "*exactly k among* $x_1, x_2, \dots, x_n$ *are true*" can be written as the logical intersection of: [^2]
 
 [^2]: notice that all propositions are written in [CNF](https://en.wikipedia.org/wiki/Conjunctive_normal_form), which is the format required by the SAT solver we'll be using.
 
