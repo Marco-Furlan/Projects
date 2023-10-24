@@ -1,2 +1,0 @@
-# SAT solver for Minesweeper
-
