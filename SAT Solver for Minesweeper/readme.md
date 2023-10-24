@@ -22,4 +22,4 @@ We can call the empty cells $x, y, z$:
 
 The information given by the $1$ can therefore be encoded in the following way:
 
-$(x \vel y \vel z) \land ((\neg x \val \neg y) \land (\neg y \val \neg z) \land (\neg x \val \neg z))$
+$(x \lor y \lor z) \land ((\neg x \lor \neg y) \land (\neg y \lor \neg z) \land (\neg x \lor \neg z))$
