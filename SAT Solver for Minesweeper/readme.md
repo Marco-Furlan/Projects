@@ -53,5 +53,5 @@ from pysat.solvers import Minisat22
 
 Once all propositions are defined, to check if a cell $x$ is safe or contains a bomb we add [^3] a last proposition $x$ or $\neg x$ respectively, then we ask the SAT solver to return a solution. If the SAT solver is **not** able to find a truth assignment that makes all propositions true, we have the confirmation that the cell is safe or contains a bomb respectively.
 
-[^3] with a logical and.
+[^3]: with a logical and.
 
