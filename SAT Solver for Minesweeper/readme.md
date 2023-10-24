@@ -20,6 +20,8 @@ We can call the empty cells $x, y, z$:
 
 ![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example2.png?raw=true>)
 
+Where $x,y,z$ are propositional variables which are true if a bomb is contained in the respective cell, and false otherwise.
+
 The information given by the $1$ can therefore be encoded in the following way:
 
 $(x \lor y \lor z) \land (\neg x \lor \neg y) \land (\neg y \lor \neg z) \land (\neg x \lor \neg z)$
