@@ -29,7 +29,7 @@ Which is equivalent to: "*exactly one among* $x,y,z$ *is true*" (that is, exactl
 - $x \lor y \lor z$ is equivalent to: "*at least one among* $x,y,z$ *contains a bomb*";
 - $(\neg x \lor \neg y) \land (\neg y \lor \neg z) \land (\neg x \lor \neg z)$ is equivalent to: "*at most one among* $x,y,z$ *contains a bomb*".
 
-\
+  
 
 More generally, any number we see in the board of a minesweeper game means "*exactly [...] of the neighbouring cells contains a bomb*". So we need a way to encode this information in boolean propositions.
 
