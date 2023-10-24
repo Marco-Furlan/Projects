@@ -24,9 +24,9 @@ The information given by the $1$ can therefore be encoded in the following way:
 
 $(x \lor y \lor z) \land (\neg x \lor \neg y) \land (\neg y \lor \neg z) \land (\neg x \lor \neg z)$
 
-Which basically encapsulates the proposition: *exactly one among* $x,y,z$ *is true* (that is, exactly one contains a bomb). In fact:
+Which is equivalent to: *exactly one among* $x,y,z$ *is true* (that is, exactly one contains a bomb). In fact:
 
-- $x \lor y \lor z$ is equivalent to: *at least one among* $x,y,z$ *contains a bomb*;
-- $(\neg x \lor \neg y) \land (\neg y \lor \neg z) \land (\neg x \lor \neg z)$ is equivalent to: *at most one among* $x,y,z$ *contains a bomb*.
+- $x \lor y \lor z$ is equivalent to: "*at least one among* $x,y,z$ *contains a bomb*";
+- $(\neg x \lor \neg y) \land (\neg y \lor \neg z) \land (\neg x \lor \neg z)$ is equivalent to: "*at most one among* $x,y,z$ *contains a bomb*".
 
-With thee same idea, we can generalize the 
+We can generalize this idea: given $n$ propositional variables $x_1, x_2, \dots, x_n$, the proposition ""
