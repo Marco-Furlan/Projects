@@ -258,3 +258,4 @@ class Game():
             p_safe = self.probability_of_safe(model)
             
         return {int_to_coords[i]:p_safe[i] for i in int_to_coords.keys()}
+
