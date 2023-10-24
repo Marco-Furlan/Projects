@@ -22,4 +22,6 @@ We can call the empty cells $x, y, z$:
 
 The information given by the $1$ can therefore be encoded in the following way:
 
-$(x \lor y \lor z) \land ((\neg x \lor \neg y) \land (\neg y \lor \neg z) \land (\neg x \lor \neg z))$
+$(x \lor y \lor z) \land (\neg x \lor \neg y) \land (\neg y \lor \neg z) \land (\neg x \lor \neg z)$
+
+Which basically encapsulates the proposition: **exactly one among $\mathbb{x,y,z}$ is true**.
