@@ -20,7 +20,7 @@ We can call the empty cells $x, y, z$:
 
 ![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example2.png?raw=true>)
 
-Where $x,y,z$ are propositional variables which are true if a bomb is contained in the respective cell, and false otherwise.
+Where $x,y,z$ are boolean variables: "*this cell contains a bomb*".
 
 The information given by the $1$ can therefore be encoded in the following way:
 
