@@ -4,6 +4,6 @@ Video explenation: [...]
 
 In this project [^1] I coded from scratch the popular game Minesweeper and 
 
-![](<https://github.com/Marco-Furlan/Projects/main/blob/SAT Solver for Minesweeper/images/minesweeper.png?raw=true>)
+![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/minesweeper.png?raw=true>)
 
 [^1]: made for the course Knowledge and Data Mining, from the Data Science Master at University of Padua.
