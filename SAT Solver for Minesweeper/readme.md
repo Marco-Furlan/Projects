@@ -44,3 +44,5 @@ $$\bigwedge_{\genfrac{}{}{0pt}{}{I \subset \\{ 1,2,\dots,n \\} }{ |I| = n-k+1 }}
 
 $$\bigwedge_{\genfrac{}{}{0pt}{}{I \subset \\{ 1,2,\dots,n \\} }{ |I| = k+1 }} \bigvee\limits_{i \in I} \neg x_i$$
 
+This is done in the code [here](https://github.com/Marco-Furlan/Projects/blob/66f0673afd0b8d360c36bc8ef96e4a4463614b07/SAT%20Solver%20for%20Minesweeper/game.py#L90).
+
