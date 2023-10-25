@@ -112,7 +112,7 @@ A really tough configuration with plenty of model counting steps. The following 
 
 <img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (11).png" width="400">
 
-## Potential improvements:
+## Improvements
 
 Some improvements that I didn't implement because out of the scope of this project:
 
