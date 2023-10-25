@@ -111,3 +111,11 @@ A really tough configuration with plenty of model counting steps. The following 
 <img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (10).png" width="400">
 
 <img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (11).png" width="400">
+
+## Potential improvements:
+
+Some improvements that I didn't implement because out of the scope of this project:
+
+- The initial random guesses should take into account previous random guesses but they do not at the moment. So the algorithm could guess a cell neighboring a 4, which is obviously a bad guess with 50% probability of failure.
+
+- The algorithm does not take into account the information of how many total cells are left. This is a very expensive information in opening and midgame (generates too many propositions), but it should be accounted for in the endgame (for example when <10% of cells are left).
