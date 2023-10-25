@@ -2,8 +2,8 @@ from game import *
 import tkinter as tk
 from functools import partial
 
-random.seed(32)
-# random.seed(45)
+# random.seed(32)
+random.seed(45)
 
 c = 40 # cell size in pixel
 

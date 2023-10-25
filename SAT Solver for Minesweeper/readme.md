@@ -65,7 +65,7 @@ Then **model counting** is applied, that is an algorithm (see [code](https://git
 random.seed(32)
 ```
 
-The following images show the steps taken by the SAT solver:
+A full solve with one trivial model counting step at the end. The following images show the steps taken by the SAT solver:
 
 <img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (1).png" width="400">
 
@@ -82,3 +82,32 @@ The following images show the steps taken by the SAT solver:
 <img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (7).png" width="400">
 
 
+## SAT solver: example #2
+
+```
+random.seed(45)
+```
+
+A really tough configuration with plenty of model counting steps. The following images show the steps taken by the SAT solver:
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (1).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (2).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (3).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (4).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (5).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (6).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (7).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (8).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (9).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (10).png" width="400">
+
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_2 (11).png" width="400">
