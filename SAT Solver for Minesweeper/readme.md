@@ -2,7 +2,7 @@
 
 Video explenation: [...]
 
-In this project [^1] I coded from scratch the popular game Minesweeper, and impmlemented a SAT solver to it.
+In this project [^1] I coded from scratch the popular game Minesweeper, and implemented a SAT solver to solve it.
 
 [^1]: made for the course Knowledge and Data Mining, from the Data Science Master at University of Padua.
 
@@ -54,4 +54,31 @@ from pysat.solvers import Minisat22
 Once all propositions are defined, to check if a cell $x$ is safe or contains a bomb we add [^3] a last proposition $x$ or $\neg x$ respectively, then we ask the SAT solver to return a solution. If the SAT solver is **not** able to find a truth assignment that makes all propositions true, we have the confirmation that the cell is safe or contains a bomb respectively.
 
 [^3]: with a logical and.
+
+**What if there are no safe cells nor mines?**
+
+Then **model counting** is applied, that is an algorithm (see [code](https://github.com/Marco-Furlan/Projects/blob/e88d56f138fb438a130b76681cb591779193a0e8/SAT%20Solver%20for%20Minesweeper/game.py#L188)) iterates through all models that make the set of propositions true. Then, the probability of cells being safe is derived, and a cell with the highest probability is picked. See following examples for better details.
+
+## SAT solver: example #1
+
+```
+random.seed(32)
+```
+
+The following images show the steps taken by the SAT solver:
+
+![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (1).png?raw=true>)
+
+![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (2).png?raw=true>)
+
+![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (3).png?raw=true>)
+
+![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (4).png?raw=true>)
+
+![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (5).png?raw=true>)
+
+![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (6).png?raw=true>)
+
+![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (7).png?raw=true>)
+
 

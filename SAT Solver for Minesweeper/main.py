@@ -2,7 +2,7 @@ from game import *
 import tkinter as tk
 from functools import partial
 
-# random.seed(32)
+random.seed(32)
 # random.seed(45)
 
 c = 40 # cell size in pixel
@@ -11,7 +11,8 @@ H = int(c * n_row * 1.7)
 W = int(c * n_col * 1.275)
 
 root = tk.Tk()
-IMG = tk.PhotoImage(width=1, height=1) # trick to set width and height in pixels
+IMG = tk.PhotoImage(width=0, height=0) # trick to set width and height in pixels
+
 root.title("Minesweeper")
 root.geometry(f"{W}x{H}")
 
@@ -171,13 +172,12 @@ def SAT_step():
             
             if len(safe_list) == 0 and len(mines_list) == 0:
                 #SAT SOLVER!
-                print("The percentages shown are the probability of the cells being safe. I suggest guessing the highlighted cell (one with the highest probability of safe picked randomly)")
+                label.configure(text = "SAT solver:\nThe percentages shown are the probability of\nthe cells being safe. I suggest guessing\nthe highlighted cell (one with the highest\nprobability of safe picked randomly)")
                 sf_dct = game.p_safe_dict()
                 for x,y in sf_dct:
                     buttons[x][y].configure(text = str(round(100*sf_dct[(x,y)]))+'%')
                 
                 cells_best = [cell for cell in sf_dct if sf_dct[cell] == max(sf_dct.values())]
-                print(cells_best)
                 i,j = random.choice(cells_best)
 
                 buttons[i][j].configure(bg = "CYAN")
@@ -189,7 +189,8 @@ def SAT_step():
                 elif var.get() == -1:
                     board_state('normal')
                     button_SAT_arrow.grid_forget()
-                    buttons[i][j].configure(text = '', bg = 'WHITE')
+                    for x,y in sf_dct:
+                        buttons[x][y].configure(text = '', bg = 'WHITE')
                     label.grid_forget()
                     return
                 elif var.get() == 1:
