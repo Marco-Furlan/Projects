@@ -67,7 +67,7 @@ random.seed(32)
 
 The following images show the steps taken by the SAT solver:
 
-![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (1).png?=250x250>)
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (1).png" width="48">
 
 ![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (2).png?raw=true>)
 
