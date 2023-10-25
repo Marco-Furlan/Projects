@@ -69,16 +69,16 @@ The following images show the steps taken by the SAT solver:
 
 <img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (1).png" width="400">
 
-![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (2).png?raw=true>)
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (2).png" width="400">
 
-![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (3).png?raw=true>)
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (3).png" width="400">
 
-![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (4).png?raw=true>)
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (4).png" width="400">
 
-![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (5).png?raw=true>)
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (5).png" width="400">
 
-![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (6).png?raw=true>)
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (6).png" width="400">
 
-![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (7).png?raw=true>)
+<img src="https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example_1 (7).png" width="400">
 
 
