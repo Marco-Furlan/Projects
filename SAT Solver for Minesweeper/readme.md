@@ -16,7 +16,7 @@ An example: if we have the following configuration:
 
 ![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example1.png?raw=true>)
 
-We can call the empty cells $x, y, z$:
+We can call the undiscovered cells $x, y, z$:
 
 ![](<https://github.com/Marco-Furlan/Projects/blob/main/SAT Solver for Minesweeper/images/example2.png?raw=true>)
 
