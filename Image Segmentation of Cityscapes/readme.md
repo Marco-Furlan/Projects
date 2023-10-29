@@ -4,6 +4,6 @@ In this project we implemented three Deep Learning algorithms, Deeplabv3, UNet a
 
 An example of their use can be seen here:
 
-![](<https://github.com/Marco-Furlan/Projects/blob/main/Image Segmentation of Cityscapes/images/example.png?raw=true>)
+![](<https://github.com/Marco-Furlan/Projects/blob/main/Image Segmentation of Cityscapes/images/examples.png?raw=true>)
 
-For more details refer to the video [...] or the [report](<https://github.com/Marco-Furlan/Projects/blob/main/Image Segmentation of Cityscapes/report>)
+For more details refer to the video [...] or the [report](<https://github.com/Marco-Furlan/Projects/blob/main/Image Segmentation of Cityscapes/report.pdf>)
