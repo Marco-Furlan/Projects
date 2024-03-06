@@ -13,3 +13,12 @@ Formally, given an undirected graph $G=(V,E)$, where $V$ is the set of vertices 
 Finding minimal connected vertex covers is computationally challenging because it involves exploring all possible subsets of vertices to check if they form connected vertex covers and then selecting the smallest one. This problem is known to be ***NP-hard***, meaning that there is no known polynomial-time algorithm to solve it optimally. One straightforward approach is to enumerate all possible subsets of vertices, check if they form connected vertex covers, and then select the smallest one. However, this approach is not efficient for large graphs due to the exponential number of subsets. Various heuristic and approximation algorithms exist that aim to find good solutions to the problem efficiently, although they may not guarantee optimality. These algorithms often employ strategies such as local search, greedy algorithms, or dynamic programming.
 
 The problem of finding minimal connected vertex covers has applications in various fields, including ***network design, wireless sensor networks, and computer network security***. In summary, finding minimal connected vertex covers in graphs is a fundamental problem in graph theory with practical applications and computational challenges.
+
+## My work
+
+Starting from these initial references:
+- [[1] Introduction to vertex covers](https://www.cs.cmu.edu/~avrim/451f13/lectures/lect1105.pdf),
+- [[2] Approximation algorithms analysis for VC](http://tandy.cs.illinois.edu/dartmouth-cs-approx.pdf),
+- [[3] C.Savage - Depth-first search and the vertex cover problem](https://www.sciencedirect.com/science/article/abs/pii/0020019082900229),
+- [[4] Y.Zhang et al. - An Efficient Heuristic Algorithm for Solving Connected Vertex Cover Problem](https://www.hindawi.com/journals/mpe/2018/3935804/)
+), I conducted a first theoretical work to set the mathematical basis of the work I was carrying on. Then I implemented two algorithms to find minimum CVC, 
