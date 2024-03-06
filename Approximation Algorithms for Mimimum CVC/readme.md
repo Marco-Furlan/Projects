@@ -44,8 +44,11 @@ $$ |M(T)| \leq |M(G)| \leq |C(G)| \leq |NL(T)| \leq 2|M(T)| $$
 
 Where $G$ is the graph, $T$ is the covering tree of $G$ obtained running the DFS algorithm, $M(T)$ is a maximal matching of $T$ (same for $M(G)$ ), $C(G)$ is a  minimal (vertex) cover of $G$, and $NL(T)$ is the set of non-leaf vertices of $T$. All inequalities are trivial or well-known in graph theory except $|NL(T)| \leq 2|M(T)|$, which takes the majority of the proof. With all inequalities proved, we can deduce $|NL(T)| \leq 2|M(T)| \leq 2 |C(G)|$, which means that the number of non-leaf nodes $|NL(T)|$ is at most twice the optimal solution $|C(G)|$.
 
+Since it only uses DFS, this algorithm has $O(|V| + |E|)$ time complexity.
+
 ### GRASP-CVC
 
 <p align="center">
   <img src="images/GRASP_CVC.gif" alt="" width="500"/>
 </p>
+
