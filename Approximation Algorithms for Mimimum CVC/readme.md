@@ -24,4 +24,9 @@ Starting from these initial references:
 
 I conducted a first theoretical work to set the mathematical foundation of the work I was going to develop. Then I implemented two algorithms to find minimum CVCs:
 
+- The ***DFS-CVC***, proposed in [3]
+
+- The ***GRASP-CVC***, proposed in [4]
+
+- The ***GRASP-CVC*** *, my improved version of the GRASP-CVC.
 
