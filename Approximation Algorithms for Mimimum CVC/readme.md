@@ -17,9 +17,11 @@ The problem of finding minimal connected vertex covers has applications in vario
 ## My work
 
 Starting from these initial references:
-- [1] [Introduction to vertex covers](https://www.cs.cmu.edu/~avrim/451f13/lectures/lect1105.pdf),
+- [1] [Introduction to vertex covers](https://www.cs.cmu.edu/~avrim/451f13/lectures/lect1105.pdf){:target="_blank"},
 - [2] [Approximation algorithms analysis for VC](http://tandy.cs.illinois.edu/dartmouth-cs-approx.pdf),
 - [3] [C.Savage - Depth-first search and the vertex cover problem](https://www.sciencedirect.com/science/article/abs/pii/0020019082900229),
-- [4] [Y.Zhang et al. - An Efficient Heuristic Algorithm for Solving Connected Vertex Cover Problem](https://www.hindawi.com/journals/mpe/2018/3935804/)
+- [4] [Y.Zhang et al. - An Efficient Heuristic Algorithm for Solving Connected Vertex Cover Problem](https://www.hindawi.com/journals/mpe/2018/3935804/),
 
-I conducted a first theoretical work to set the mathematical basis of the work I was carrying on. Then I implemented two algorithms to find minimum CVC, 
+I conducted a first theoretical work to set the mathematical foundation of the work I was going to develop. Then I implemented two algorithms to find minimum CVCs:
+
+
