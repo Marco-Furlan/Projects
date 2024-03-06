@@ -1,6 +1,6 @@
 # Projects
 
-Click on one:
+- [Environmental Sound Classification]("Environmental Sound Classification/")
 
 - [Image Segmentation of Cityscapes](https://github.com/Marco-Furlan/Projects/tree/main/Image%20Segmentation%20of%20Cityscapes)
 
