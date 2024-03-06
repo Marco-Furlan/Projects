@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="images/Image_segmentation.png" alt="" width="400"/>
+  <img src="images/Image_segmentation.png" alt="" width="550"/>
 </p>
 
 Video: [WIP]
