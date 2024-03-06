@@ -6,7 +6,7 @@
 
 ## Introduction
 
-The problem of finding minimal connected vertex covers in graphs is a classic problem in graph theory and combinatorial optimization. A **vertex cover** of a graph is a set of vertices such that each edge in the graph is incident to at least one vertex in the set. In other words, it's a set of vertices that covers all the edges in the graph. A ***minimum connected vertex cover** is a vertex cover that is both connected and minimal in size. Connectedness implies that there is a path between any pair of vertices in the vertex cover.
+The problem of finding minimal connected vertex covers in graphs is a classic problem in graph theory and combinatorial optimization. A ***vertex cover*** of a graph is a set of vertices such that each edge in the graph is incident to at least one vertex in the set. In other words, it's a set of vertices that covers all the edges in the graph. A ***minimum connected vertex cover*** is a vertex cover that is both connected and minimal in size. Connectedness implies that there is a path between any pair of vertices in the vertex cover.
 
 Formally, given an undirected graph $G=(V,E)$, where $V$ is the set of vertices and $E$ is the set of edges, a **connected vertex cover (CVC)** of $G$ is a subset $S$ of $V$ such that every edge in $E$ is incident to at least one vertex in $S$, and the induced subgraph $G[S]$ (the subgraph of $G$ induced by the vertices in $S$) is connected. A **minimum connected vertex cover** $S^′$ is a connected vertex cover of $G$ such that there does not exist another connected vertex cover $S^{′′}$ with $∣S^{′′}∣<∣S^′∣$.
 
