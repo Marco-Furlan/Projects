@@ -36,10 +36,11 @@ I conducted a first theoretical work to set the mathematical foundation of the w
   <img src="images/DFS_CVC_2.png" alt="" width="500"/>
 </p>
 
-The DFS-CVC consists in running the Depth First Search algorithm to define an ordering to the nodes of the graph, and then selecting the non-leaf nodes as the CVC. Proving that this set of vertices is a Vertex Cover is trivial, and similarly that it is connected.
+The DFS-CVC consists in running the Depth First Search algorithm to define a covering tree of the graph, and then selecting the non-leaf nodes as the CVC. Proving that this set of vertices is a Vertex Cover is trivial, and similarly that it is connected.
 
-What isn't trivial about this CVC is that it is ***at worst twice the size of the optimal solution***. Yhis is proved rigorously in [3]; if you want to practice your Italian you can also find the full proof in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 2: Teoria (Teorema 4). To give a quick taste of the idea behind the proof, it boils down to proving the following chain of inequalities:
+What isn't trivial about this CVC is that it is ***at worst twice the size of the optimal solution***. This is proved rigorously in [3]; if you want to practice your Italian you can also find the full proof in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 2: Teoria (Teorema 4). To give a quick taste of the idea behind the proof, it boils down to proving the following chain of inequalities:
 
 $$ |M(T)| \leq |M(G)| \leq |C(G)| \leq |NL(T)| \leq 2|M(T)| $$
 
-Where 
+Where $G$ is the graph, $T$ is the covering tree of $G$ obtained running the DFS algorithm, $M(T)$ is a maximal matching of $T$ (same for $M(G)$), $C(G)$ is a  minimal cover of $G$, and $NL(T)$ is the set of non-leaf vertices of $T$. All inequalities are trivial except $|C(G)| \leq |NL(T)|$, which takes the majority of the proof. Once all inequalities are proved, we deduce $|NL(T)| \leq 2|M(T)| \leq 2 |C(G)|$, that means the number of non-leaf nodes $|NL(T)|$ is at most twice the optimal solution $|C(G)|$.
+
