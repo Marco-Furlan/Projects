@@ -36,5 +36,10 @@ I conducted a first theoretical work to set the mathematical foundation of the w
   <img src="images/DFS_CVC_2.png" alt="" width="500"/>
 </p>
 
-The DFS-CVC consists in running the Depth First Search algorithm to define an ordering to the nodes of the graph, and then selecting the non-leaf nodes as the CVC. Proving that this set of vertices is a Vertex Cover is trivial, and similarly that it is connected. What isn't trivial about this CVC is that it is at worst twice the optimal solution: this is proved rigorously in [3]; if you want to practice your Italian you can also find the full proof in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 2: Teoria.
+The DFS-CVC consists in running the Depth First Search algorithm to define an ordering to the nodes of the graph, and then selecting the non-leaf nodes as the CVC. Proving that this set of vertices is a Vertex Cover is trivial, and similarly that it is connected.
 
+What isn't trivial about this CVC is that it is ***at worst twice the size of the optimal solution***. Yhis is proved rigorously in [3]; if you want to practice your Italian you can also find the full proof in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 2: Teoria (Teorema 4). To give a quick taste of the idea behind the proof, it boils down to proving the following chain of inequalities:
+
+$$ |M(T)| \leq |M(G)| \leq |C(G)| \leq |NL(T)| \leq 2|M(T)| $$
+
+Where 
