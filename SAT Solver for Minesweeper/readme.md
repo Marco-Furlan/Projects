@@ -1,6 +1,6 @@
 # SAT solver for Minesweeper
 
-Video explenation: [...]
+Video: [WIP]
 
 In this project [^1] I coded from scratch the popular game Minesweeper, and implemented a SAT solver to solve it.
 
