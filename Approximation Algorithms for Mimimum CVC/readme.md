@@ -33,7 +33,6 @@ I conducted a first theoretical work to set the mathematical foundation of the w
 ### DFS-CVC
 
 <p align="center">
-  <img src="images/DFS_CVC.png" alt="" width="500"/>
   <img src="images/DFS_CVC_2.png" alt="" width="500"/>
 </p>
 
