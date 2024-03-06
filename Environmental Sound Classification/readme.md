@@ -19,3 +19,8 @@ Here's what we implemented:
 - a vision transformer, which applies self-attention on fixed-size patches of the spectrogram.
 
 ***All models were trained from scratch, without use of pretrained models or external datasets***. Here I leave the [report](report.pdf) and the [presentation code](presentation.ipynb), if you are interested in the full codes they are shared [here](https://github.com/ivankrstev7/Environmental_Sound_Classification).
+
+
+<p align="center">
+  <img src="images/performances.png" alt="" width="500"/>
+</p>
