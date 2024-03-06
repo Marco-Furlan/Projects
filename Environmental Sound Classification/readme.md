@@ -8,15 +8,15 @@ In this group project me and a dear friend of mine cooperated to implement and t
 
 Here's what we implemented:
 
-- classic ML models with manual feature extraction,
+- Classic ML Models with manual feature extraction,
 
-- [Pickzac's model](https://www.karolpiczak.com/papers/Piczak2015-ESC-ConvNet.pdf) re-implemented from scratch in Tensorflow,
+- [Pickzac's Model](https://www.karolpiczak.com/papers/Piczak2015-ESC-ConvNet.pdf) re-implemented from scratch in Tensorflow,
 
-- a sequential CNN,
+- a Sequential CNN,
 
-- a parallel CNN,
+- a Parallel CNN,
 
-- a vision transformer, which applies self-attention on fixed-size patches of the spectrogram.
+- a Visual Transformer, which applies self-attention on fixed-size patches of the spectrogram.
 
 ***All models were trained from scratch, without use of pretrained models or external datasets***. Here I leave the [report](report.pdf) and the [presentation code](presentation.ipynb), if you are interested in the full codes they are shared [here](https://github.com/ivankrstev7/Environmental_Sound_Classification).
 
