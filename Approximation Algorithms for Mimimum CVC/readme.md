@@ -38,7 +38,7 @@ I conducted a first theoretical work to set the mathematical foundation of the w
 
 The DFS-CVC consists in running the Depth First Search algorithm to define a covering tree of the graph, and then selecting the non-leaf nodes as the CVC. Proving that this set of vertices is a Vertex Cover is trivial, and similarly that it is connected.
 
-What isn't trivial about this CVC is that it is ***at worst twice the size of the optimal solution***. This is proved rigorously in [3]; if you want to practice your Italian you can also find the full proof in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 2: Teoria (Teorema 4). To give a quick taste of the idea behind the proof, it boils down to proving the following chain of inequalities:
+What isn't trivial about this CVC is that it is ***at worst twice the size of the optimal solution***. This is proved rigorously in [[3]](https://www.sciencedirect.com/science/article/abs/pii/0020019082900229); if you want to practice your Italian you can also find the full proof in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 2: Teoria (Teorema 4). To give a quick taste of the idea behind the proof, it boils down to proving the following chain of inequalities:
 
 $$ |M(T)| \leq |M(G)| \leq |C(G)| \leq |NL(T)| \leq 2|M(T)| $$
 
@@ -52,3 +52,8 @@ Since it only uses DFS, this algorithm has $O(|V| + |E|)$ time complexity.
   <img src="images/GRASP_CVC.gif" alt="" width="500"/>
 </p>
 
+The acronym GRASP-CVC stands for Greedy Randomized Adaptive Search Procedures for Connected Vertex Cover problem. As the name implies it is a Greedy Algorithm, which is divided into two phases: a ***GreedyConstruction*** phase and a ***LocalSearch*** phase. During the *GreedyConstruction* phase a vertex is chosen with the highest degree, and then connected vertices are added gradually, choosing greedily at each step the vertex that covers the highest amount of yet uncovered edges. This repeats until all edges are covered, returning a CVC. Then the *LocalSearch* phase begins, during which we remove vertices that can be removed without corrupting the convering nor the connectivity, and then we methodically remove and add vertices to the CVC in hope to find another CVC (a "neighbour" in the space of solutions) which has a smaller number of vertices. Pseudocodes for both can be found in [[4]](https://www.hindawi.com/journals/mpe/2018/3935804/), or again if you want to test your Italian also in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 3: Algoritmi.
+
+This algorithm has $O(|V| \cdot |E|)$ time complexity[^1]. 
+
+[^1]: under some assumptions which are always met in bigger graphs unless they are exceptionally sparse; refer to [[4]](https://www.hindawi.com/journals/mpe/2018/3935804/) or to [my thesis](TESI_Marco_Furlan.pdf) for more details.
