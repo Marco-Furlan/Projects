@@ -1,10 +1,8 @@
 # Environmental Sound Classification
 
 <p align="center">
-  <img src="images/image.png" alt="" width="300"/>
+  <img src="images/image.png" alt="" width="400"/>
 </p>
-
-![](images/image.png)
 
 In this group project me and a dear friend of mine cooperated to implement and train from scratch different algorithms for the Environmental Sound Classification task. We used the [ESC50](https://github.com/karolpiczak/ESC-50) dataset and its subset, the ESC10, and got performances up to 91% and 100% respectively.
 
