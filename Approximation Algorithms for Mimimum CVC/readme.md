@@ -22,11 +22,19 @@ Starting from these initial references:
 - [3] [C.Savage - Depth-first search and the vertex cover problem](https://www.sciencedirect.com/science/article/abs/pii/0020019082900229),
 - [4] [Y.Zhang et al. - An Efficient Heuristic Algorithm for Solving Connected Vertex Cover Problem](https://www.hindawi.com/journals/mpe/2018/3935804/),
 
-I conducted a first theoretical work to set the mathematical foundation of the work I was going to develop. Then I implemented two algorithms to find minimum CVCs:
+I conducted a first theoretical work to set the mathematical foundation of the work I was going to develop. Then I implemented three algorithms to find minimum CVCs:
 
 - The ***DFS-CVC***, proposed in [3]
 
 - The ***GRASP-CVC***, proposed in [4]
 
 - The ***GRASP-CVC*** *, my improved version of the GRASP-CVC.
+
+### DFS-CVC
+
+<p align="center">
+  <img src="images/DFS_CVC.png" alt="" width="500"/>
+</p>
+
+The DFS-CVC consists in running the Depth First Search algorithm to define an ordering to the nodes of the graph, and then selecting the non-leaf nodes as the CVC. Proving that this set of vertices is a Vertex Cover is trivial, and similarly that it is connected. A relevant fact about this solution is the fact that it is at worst twice the optimal solution: this is proved rigorously in [3]; if you want to practice your Italian you can find it in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 2: Teoria.
 
