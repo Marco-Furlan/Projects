@@ -52,7 +52,7 @@ Since it only uses DFS, this algorithm has $O(|V| + |E|)$ time complexity.
   <img src="images/GRASP_CVC.gif" alt="" width="500"/>
 </p>
 
-The acronym GRASP-CVC stands for Greedy Randomized Adaptive Search Procedures for Connected Vertex Cover problem. As the name implies it is a Greedy Algorithm, which is divided into two phases: a ***GreedyConstruction*** phase and a ***LocalSearch*** phase.
+The acronym GRASP-CVC stands for Greedy Randomized Adaptive Search Procedures for Connected Vertex Cover problem. As the name implies it is a Greedy Algorithm, which is divided into two phases: a ***GreedyConstruction*** phase and a ***LocalSearch*** phase. Both have some randomization involved so they are executed multiple times, saving the best found solution as final output.
 
 - *GreedyConstruction*: During this phase a vertex is chosen with the highest degree, and then connected vertices are added gradually, choosing greedily at each step the vertex that covers the highest amount of yet uncovered edges. This repeats until all edges are covered, returning a CVC. 
 
