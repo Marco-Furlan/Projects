@@ -84,7 +84,7 @@ But the effect is significant, as we can see from the table below. We highlight:
 
 - in red worst results (none found so far),
 
-- in gray results that cannot be improved (MVC stands for Mimimum Vertex Cover: it is a lower bound for Minimum CVC).
+- in gray results that couldn't be improved (MVC stands for Mimimum Vertex Cover: it is a lower bound for Minimum CVC).
 
 <p align="center">
   <img src="images/GRASP_CVC_star.png" alt="" width="700"/>
