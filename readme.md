@@ -6,4 +6,4 @@
 
 - Sep 2022 - [SAT Solver for Minesweeper](https://github.com/Marco-Furlan/Projects/tree/main/SAT%20Solver%20for%20Minesweeper)
 
-- -Dec 2021 - [Approximation Algorithms for Mimimum Connected Vertex Covers](https://github.com/Marco-Furlan/Projects/tree/main/Approximation%20Algorithms%20for%20Mimimum%20CVC)
+- Dec 2021 - [Approximation Algorithms for Mimimum Connected Vertex Covers](https://github.com/Marco-Furlan/Projects/tree/main/Approximation%20Algorithms%20for%20Mimimum%20CVC)
