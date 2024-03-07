@@ -61,3 +61,32 @@ The acronym GRASP-CVC stands for Greedy Randomized Adaptive Search Procedures fo
 Pseudocodes for both can be found in [[4]](https://www.hindawi.com/journals/mpe/2018/3935804/), or again if you want to test your Italian also in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 3: Algoritmi. This algorithm runs in $O(|V| \cdot |E|)$ time complexity[^1]. 
 
 [^1]: under some assumptions which are always met in bigger graphs unless they are exceptionally sparse; refer to [[4]](https://www.hindawi.com/journals/mpe/2018/3935804/) or to [my thesis](TESI_Marco_Furlan.pdf) for more details.
+
+### GRASP-CVC*
+
+This final algorithm is my personal modification of the original GRASP-CVC, which finds consistently smaller CVCs in the same computational time. The modifications are just in a couple lines:
+
+```
+score[v] = score[v] ± (2*(v in C)-1)
+```
+
+and
+
+```
+u = random.choice([v1,v2])
+```
+
+But the effect is significant, as we can see from the table below. We highlight:
+
+- in green better results,
+
+- in yellow equal results,
+
+- in red worst results (none found so far),
+
+- in gray results that cannot be improved (MVC stands for Mimimum Vertex Cover: it is a lower bound for Minimum CVC).
+
+<p align="center">
+  <img src="images/GRASP_CVC_star.png" alt="" width="700"/>
+</p>
+
