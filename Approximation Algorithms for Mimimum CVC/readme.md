@@ -52,7 +52,11 @@ Since it only uses DFS, this algorithm has $O(|V| + |E|)$ time complexity.
   <img src="images/GRASP_CVC.gif" alt="" width="500"/>
 </p>
 
-The acronym GRASP-CVC stands for Greedy Randomized Adaptive Search Procedures for Connected Vertex Cover problem. As the name implies it is a Greedy Algorithm, which is divided into two phases: a ***GreedyConstruction*** phase and a ***LocalSearch*** phase. During the *GreedyConstruction* phase a vertex is chosen with the highest degree, and then connected vertices are added gradually, choosing greedily at each step the vertex that covers the highest amount of yet uncovered edges. This repeats until all edges are covered, returning a CVC. Then the *LocalSearch* phase begins, during which we remove vertices that can be removed without corrupting the convering nor the connectivity, and then we methodically remove and add vertices to the CVC in hope to find another CVC (a "neighbour" in the space of solutions) which has a smaller number of vertices. Pseudocodes for both can be found in [[4]](https://www.hindawi.com/journals/mpe/2018/3935804/), or again if you want to test your Italian also in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 3: Algoritmi.
+The acronym GRASP-CVC stands for Greedy Randomized Adaptive Search Procedures for Connected Vertex Cover problem. As the name implies it is a Greedy Algorithm, which is divided into two phases: a ***GreedyConstruction*** phase and a ***LocalSearch*** phase.
+
+- *GreedyConstruction*: During this phase a vertex is chosen with the highest degree, and then connected vertices are added gradually, choosing greedily at each step the vertex that covers the highest amount of yet uncovered edges. This repeats until all edges are covered, returning a CVC. 
+
+- *LocalSearch*: once we have a candidate solution we move to the local search phase, during which we remove vertices that can be removed without corrupting the convering nor the connectivity, and then we methodically remove and add vertices to the CVC - carrying on a local search among the "neighbours" in the space of solutions - in hope to find another CVC which has a smaller number of vertices. Pseudocodes for both can be found in [[4]](https://www.hindawi.com/journals/mpe/2018/3935804/), or again if you want to test your Italian also in [my thesis](TESI_Marco_Furlan.pdf) under Chapter 3: Algoritmi.
 
 This algorithm has $O(|V| \cdot |E|)$ time complexity[^1]. 
 
