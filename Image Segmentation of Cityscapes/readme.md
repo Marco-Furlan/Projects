@@ -25,7 +25,7 @@ We show here some performance metrics:
 
 We will consider the Macro [^1] metric for the comparison. UNet performs terribly despite being trained on less classes [^2], and the best performing model among the three is the DenseASPP.
 
-[^1]: as we understood, the Macro average should be equivalent to the meanIoU, which would be the standard evaluation metric for comparing image segmentation models, but results are off because DenseASPP should return a meanIoU of 0.81 on the Cityscapes dataset. An analysis of this issue is carried in the [report](report.pdf).
+[^1]: the Macro average should be equivalent to the meanIoU, which would be the standard evaluation metric for comparing image segmentation models, but results are off because the exact DenseASPP model we downloaded already trained should return a meanIoU of 0.81 on the Cityscapes dataset, while we get a 0.52. An analysis of this issue is carried in the [report](report.pdf).
 
 [^2]: we reduced the number of classes to test the first training of the UNet. Given the results and the time it takes to train it we didn't consider it worth it to redo the training with the full 19 classes.
 
