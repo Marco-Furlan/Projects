@@ -21,8 +21,16 @@ Our contribution was as follows:
 
 As part of the presentation we included the following video, which compares qualitatively the 3 models on a completely new task. We have:
 
-| Original video | DeepLabv3 |
-| UNet           | DenseASPP |
+<table>
+  <tr>
+    <td style="background-color:#FFFF00">Original</td>
+    <td style="background-color:#FF0000">DeepLabv3</td>
+  </tr>
+  <tr>
+    <td style="background-color:#00FF00">UNet</td>
+    <td style="background-color:#0000FF">DenseASPP</td>
+  </tr>
+</table>
 
 https://youtu.be/U-L6mPUYhu0
 
