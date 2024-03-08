@@ -13,9 +13,9 @@ Over the years, numerous models have been developed to tackle this demanding tas
 
 Our contribution were:
 
-- Training from scratch DeepLabv3 for the task,
+- Training from scratch the DeepLabv3 model,
 
-- Training from scratch UNet, which was done using [my own UNet PyTorch implementation](https://github.com/MarcoFurlan99/Marco_code_final/tree/master/UNet) 
+- Training from scratch the UNet model, which was done using [my own UNet PyTorch implementation](https://github.com/MarcoFurlan99/Marco_code_final/tree/master/UNet) 
 
 - Updating the DenseASPP model from [here](https://github.com/DeepMotionAIResearch/DenseASPP) to be compatible with the latest Python and PyTorch versions.
 
