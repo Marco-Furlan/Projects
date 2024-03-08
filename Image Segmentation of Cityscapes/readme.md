@@ -19,7 +19,7 @@ Our contribution were:
 
 - Updating the DenseASPP model from [here](https://github.com/DeepMotionAIResearch/DenseASPP) to be compatible with the latest Python and PyTorch versions.
 
-We show here some performance metrics:
+A full breakdown of the model architectures, training and testing methodologies is done in the [report](report.pdf). You can get a fast visual overview of these topics from the [presentation](presentation.pdf). We show here some performance metrics:
 
 ![](images/results.png)
 
