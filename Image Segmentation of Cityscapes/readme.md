@@ -29,7 +29,7 @@ We will consider the Macro [^1] metric for the comparison. UNet performs terribl
 
 [^2]: we reduced the number of classes to test the first training of the UNet. Given the results and the time it takes to train, we deemed it unworthy to redo the training with all 19 classes.
 
-As part of the presentation we included the following video, which compares qualitatively the 3 models on a completely new task.
+As part of the presentation we included a [video](https://www.youtube.com/watch?v=U-L6mPUYhu0) which compares qualitatively the 3 models on a completely new task.
 
 <table>
   <tr>
@@ -42,6 +42,6 @@ As part of the presentation we included the following video, which compares qual
   </tr>
 </table>
 
-Click below to open the [video](https://www.youtube.com/watch?v=U-L6mPUYhu0).
+Click the link above or the image below to open it.
 
 [![Video](https://img.youtube.com/vi/U-L6mPUYhu0/0.jpg)](https://www.youtube.com/watch?v=U-L6mPUYhu0)
