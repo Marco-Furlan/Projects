@@ -42,6 +42,6 @@ As part of the presentation we included the following video, which compares qual
   </tr>
 </table>
 
-[![Video](https://img.youtube.com/vi/U-L6mPUYhu0/0.jpg)](https://www.youtube.com/watch?v=U-L6mPUYhu0)
+Click below to open the video:
 
-Click the image above to see the video.
+[![Video](https://img.youtube.com/vi/U-L6mPUYhu0/0.jpg)](https://www.youtube.com/watch?v=U-L6mPUYhu0)
