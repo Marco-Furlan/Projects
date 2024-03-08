@@ -11,15 +11,15 @@ In tasks such as autonomous driving and video surveillance, where understanding 
 
 Over the years, numerous models have been developed to tackle this demanding task. In this project, we present the results of our experiments with three such models: [DeepLabV3](https://paperswithcode.com/method/deeplabv3), [U-Net](https://arxiv.org/abs/1505.04597), and [DenseASPP](https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_DenseASPP_for_Semantic_CVPR_2018_paper.pdf). Each model employs distinct strategies and architectural implementations to effectively capture multi-scale contextual information and achieve efficient segmentations of images. For our benchmark testing, we utilized the [Cityscapes dataset](https://www.cityscapes-dataset.com/), specifically designed for street scene segmentation tasks. While all three models exhibit similar performance, DenseASPP demonstrates superior results.
 
-Our contribution was as follows:
+Our contribution were:
 
-- Trained from scratch DeepLabv3 for the task,
+- Training from scratch DeepLabv3 for the task,
 
-- Trained from scratch UNet, after [consistent improvements](...) to the original code,
+- Training from scratch UNet, after [consistent improvements](...) to the original code,
 
-- U
+- Updating the DenseASPP model from [here](https://github.com/DeepMotionAIResearch/DenseASPP) to be compatible with the latest Python and PyTorch versions.
 
-As part of the presentation we included the following video, which compares qualitatively the 3 models on a completely new task. We have:
+As part of the presentation we included the following video, which compares qualitatively the 3 models on a completely new task.
 
 <table>
   <tr>
@@ -34,7 +34,4 @@ As part of the presentation we included the following video, which compares qual
 
 [![Video](https://img.youtube.com/vi/U-L6mPUYhu0/0.jpg)](https://www.youtube.com/watch?v=U-L6mPUYhu0)
 
-https://youtu.be/U-L6mPUYhu0
-
-
-[report](<https://github.com/Marco-Furlan/Projects/blob/main/Image Segmentation of Cityscapes/report.pdf>).
+Click the image above to see the video.
