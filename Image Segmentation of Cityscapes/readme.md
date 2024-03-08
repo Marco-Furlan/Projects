@@ -7,8 +7,13 @@
 
 Video: [WIP]
 
-In this group project I trained and tested three Deep Learning algorithms, Deeplabv3, UNet and DenseASPP, for [image segmentation](https://www.mathworks.com/discovery/image-segmentation.html) on the [Cityscapes dataset](https://www.cityscapes-dataset.com/). The first two were trained from scratch, the third one was taken from [here](https://github.com/DeepMotionAIResearch/DenseASPP) and updated to work on the last Python and PyTorch versions. For more details refer to the video [WIP] or the [report](<https://github.com/Marco-Furlan/Projects/blob/main/Image Segmentation of Cityscapes/report.pdf>).
+In tasks such as autonomous driving and video surveillance, where understanding street scenes is essential, semantic image segmentation serves as the initial step. This process involves classifying each pixel of a high-resolution image into one of the available semantic labels, providing crucial contextual information for subsequent analysis. Given the video-based nature of these tasks, objects and individuals often undergo significant and frequent changes in scale. This poses a challenge for representing high-level features, as models must accurately encode multi-scale information.
 
-An example of their use is shown below:
+Over the years, numerous models have been developed to tackle this demanding task. In this project, we present the results of our experiments with three such models: DeepLabV3, U-Net, and DenseASPP. Each model employs distinct strategies and architectural implementations to effectively capture multi-scale contextual information and achieve efficient segmentations of images. For our benchmark testing, we utilized the ***Cityscapes dataset***, specifically designed for street scene segmentation tasks. While all three models exhibit similar performance, DenseASPP demonstrates superior results.
 
-<img src="https://github.com/Marco-Furlan/Projects/blob/main/Image Segmentation of Cityscapes/images/examples.png?raw=true" width="600">
+
+
+
+
+
+[report](<https://github.com/Marco-Furlan/Projects/blob/main/Image Segmentation of Cityscapes/report.pdf>).
