@@ -21,9 +21,9 @@ Our contribution was as follows:
 
 As part of the presentation we included the following video, which compares qualitatively the 3 models on a completely new task. We have:
 
-- top left: the original video, 
-
-- top right: 
+| -------------- | --------- |
+| Original video | DeepLabv3 |
+| UNet           | DenseASPP |
 
 https://youtu.be/U-L6mPUYhu0
 
