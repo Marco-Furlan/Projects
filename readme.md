@@ -8,4 +8,4 @@
 
 - :white_check_mark: Sep 2022 - [Optimization Algorithms for Anomaly Detection](https://github.com/Marco-Furlan/Projects/tree/main/Optimization%20Algorithms%20for%20Anomaly%20Detection)
 
-- :white_check_mark: Dec 2021 - [Approximation Algorithms for Mimimum Connected Vertex Covers](https://github.com/Marco-Furlan/Projects/tree/main/Approximation%20Algorithms%20for%20Mimimum%20CVC)
+- :white_check_mark: Dec 2021 - [Approximation Algorithms for Mimimal Connected Vertex Covers](https://github.com/Marco-Furlan/Projects/tree/main/Approximation%20Algorithms%20for%20Mimimal%20CVC)
