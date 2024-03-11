@@ -1,5 +1,9 @@
 # Optimization Algorithms for Anomaly Detection
 
+<p align="center">
+  <img src="images/optimization.png" alt="" width="400"/>
+</p>
+
 One of the most challenging projects I had to face this far. Me and three dear friends from my Data Science course joined our forces to unlock the mathematics behind four algorithms:
 
 - The Away-Step Frank-Wolfe algorithm,
