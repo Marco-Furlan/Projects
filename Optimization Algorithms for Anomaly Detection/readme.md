@@ -16,8 +16,8 @@ One of the most challenging projects I had to face this far. Me and three dear f
 
 The original group code is uploaded [here](https://github.com/Optimization-project-exam/Optimization-for-Data-Science-project). My role, code-wise, involved implementing the two Frank-Wolfe variations from scratch and testing them. We all needed to thoroughly understand the theory, and we supervised each other's work. You can check the [code](code.ipynb) or the [report](report.pdf) for more details.
 
-<div style="background-color: white; padding: 10px; border-radius: 10px;">
-  <p align="center">
-    <img src="images/fw_convergence_.png" alt="" width="500"/>
-  </p>
-</div>
+<p align="center">
+    <img src="images/fw_visualization.png" alt="" width="500"/>
+</p>
+
+<p style="font-style: italic; color: #666; text-align: center;">A visualization of the Frank-Wolfe algorithm, an iterative first-order optimization algorithm for constrained convex optimization.</p>
