@@ -16,6 +16,8 @@ One of the most challenging projects I had to face this far. Me and three dear f
 
 The original group code is uploaded [here](https://github.com/Optimization-project-exam/Optimization-for-Data-Science-project). My role, code-wise, involved implementing the two Frank-Wolfe variations from scratch and testing them. We all needed to thoroughly understand the theory, and we supervised each other's work. You can check the [code](code.ipynb) or the [report](report.pdf) for more details.
 
-<p align="center">
-  <img src="images/fw_convergence.png" alt="" width="300"/>
-</p>
+<div style="background-color: white; padding: 10px; border-radius: 10px;">
+  <p align="center">
+    <img src="images/fw_convergence.png" alt="" width="300"/>
+  </p>
+</div>
