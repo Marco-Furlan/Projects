@@ -21,3 +21,4 @@ The original group code is uploaded [here](https://github.com/Optimization-proje
 </p>
 
 <p align="center">A visualization of the Frank-Wolfe algorithm, an iterative first-order optimization algorithm for constrained convex optimization.</p>
+
