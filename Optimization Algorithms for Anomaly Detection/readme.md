@@ -18,6 +18,6 @@ The original group code is uploaded [here](https://github.com/Optimization-proje
 
 <div style="background-color: white; padding: 10px; border-radius: 10px;">
   <p align="center">
-    <img src="images/fw_convergence.png" alt="" width="300"/>
+    <img src="images/fw_convergence.png" alt="" width="500"/>
   </p>
 </div>
