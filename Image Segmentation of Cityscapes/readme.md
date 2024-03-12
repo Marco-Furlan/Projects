@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="images/frankfurt_pred_denseASPP.gif" alt="" width="550"/>
+  <img src="images/frankfurt_pred_denseASPP.gif" alt="[loading gif, please wait]" width="550"/>
 </p>
 
 <p align="center">Images of Frankfurt from the Cityscapes Dataset. The coloring is the segmentation of DenseASPP.</p>

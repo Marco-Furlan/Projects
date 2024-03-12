@@ -11,3 +11,19 @@ Given the upcoming era of AR, me and my team came up with the idea of connecting
 <p align="center">
   <img src="images/our_code.png" width="550"/>
 </p>
+
+So we needed:
+
+1) A speech-to-text generator,
+
+2) A text-to-text algorithm,
+
+3) A text-to-command algorithm,
+
+4) A functioning 3d renderer.
+
+We did everything during the 24 hours we were given, managing to create a single model that, from a spoken command, generates an appropriate answer, a command, and initializes a timer which is displayed real-time through the camera input of the laptop or the phone!
+
+<p align="center">
+  <img src="images/phone_video.mp4" width="550"/>
+</p>
