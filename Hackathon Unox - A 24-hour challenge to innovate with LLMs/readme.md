@@ -25,5 +25,6 @@ So we needed:
 We did everything during the 24 hours we were given, managing to create a single model that, from a spoken command, generates an appropriate answer, a command, and initializes a timer which is displayed real-time through the camera input of the laptop or the phone!
 
 <p align="center">
-  <img src="images/phone_video.mp4" width="550"/>
+  <img src="images/phone_video.gif" height="300"/>
+  <img src="images/pc_video.gif" height="300"/>
 </p>
