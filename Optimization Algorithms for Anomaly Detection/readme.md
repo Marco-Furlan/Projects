@@ -20,4 +20,4 @@ The original group code is uploaded [here](https://github.com/Optimization-proje
     <img src="images/fw_visualization.png" alt="" width="500"/>
 </p>
 
-<p style="font-style: italic; color: #666; text-align: center;">A visualization of the Frank-Wolfe algorithm, an iterative first-order optimization algorithm for constrained convex optimization.</p>
+<p align="center">A visualization of the Frank-Wolfe algorithm, an iterative first-order optimization algorithm for constrained convex optimization.</p>
