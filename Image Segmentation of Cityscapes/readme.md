@@ -44,6 +44,4 @@ As part of the presentation we included a [video](https://www.youtube.com/watch?
 
 Click the link above or the image below to open it.
 
-[![Video](https://img.youtube.com/vi/U-L6mPUYhu0/0.jpg)](https://www.youtube.com/watch?v=U-L6mPUYhu0)
-
-[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](images/youtube_frame.png)]([youtube_frame.png](https://www.youtube.com/watch?v=U-L6mPUYhu0))
