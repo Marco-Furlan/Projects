@@ -28,3 +28,8 @@ We did everything during the 24 hours we were given, managing to create a single
   <img src="images/phone_video.gif" height="300"/>
   <img src="images/pc_video.gif" height="300"/>
 </p>
+
+## My work
+
+I dealed mainly with the 
+

@@ -1,5 +1,7 @@
 # Projects
 
+- :white_check_mark: - [Unox Hackathon - LLMs in action](./Hackathon%20Unox%20-%20A%2024-hour%20challenge%20to%20innovate%20with%20LLMs)
+
 - :star: Feb 2024 - [Environmental Sound Classification](https://github.com/Marco-Furlan/Projects/tree/main/Environmental%20Sound%20Classification)
 
 - :star: Jul 2023 - [Image Segmentation of Cityscapes](https://github.com/Marco-Furlan/Projects/tree/main/Image%20Segmentation%20of%20Cityscapes)
