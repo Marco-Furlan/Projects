@@ -41,7 +41,7 @@ So I needed to engineer two separate LLMs:
 A basic graph of the pipeline designed is shown below:
 
 <p align="center">
-  <img src="images/llm_pipeline.gif" height="300"/>
+  <img src="images/llm_pipeline.png" height="300"/>
 </p>
 
 The cool part about this competition being in partnership with Amazon Web Services is that we were enabled to use the LLMs developed by Amazon, that is Antropic Claude and Amazon Bedrock.
