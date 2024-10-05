@@ -29,7 +29,7 @@ I was in charge of points 2 and 3. Ultimately, we succeeded in completing everyt
   <img src="images/pc_video.gif" height="300"/>
 </p>
 
-## My work
+## Generative AI
 
 My role in the team as the only Data Scientist in the group was to design and realise the pipeline which would've levered the LLM language capabilities to understand the input, correctly send the required command to the smart oven, and return a proper output.
 
