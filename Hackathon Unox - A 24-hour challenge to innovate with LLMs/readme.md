@@ -70,21 +70,5 @@ The importance of using a foundational model other than a more primitive languag
 
 This is the prompt I came up with:
 
-`Context: You are the assistent of a smart oven, taking informations from a human.\n\nHuman:
-post_prompt = '''\n
-Based on the above text, please don't answer, but encode the question in JSON format:
-Question: Temperature, Set_timer, or Stop_timer (else Not_Valid)
-Value: integer if Set_timer (else 0)
-Unit: Minutes or Seconds if Set_timer (else None).
-'''
-
-post_prompt = '''\n
-Based on the above text, please don't answer, but encode the question in JSON format:
-Question: On_or_Off, Mode, Working_Time, Humidity, Set_Humidity, Set_Preheat, Temperature, Set_Temperature, Set_timer, or Stop_timer (else Not_Valid)
-(Hours)
-(Minutes)
-(Seconds)
-(Value: value with unit)
-(Holding Time: for set preheat)
-(other parameters if set).`
+`Context: You are the assistent of a smart oven, taking informations from a human. \ \ Human: Based on the above text, please don't answer, but encode the question in JSON format: Question: On_or_Off, Mode, Working_Time, Humidity, Set_Humidity, Set_Preheat, Temperature, Set_Temperature, Set_timer, or Stop_timer (else Not_Valid) \ (Hours) \ (Minutes) \ (Seconds) \ (Value: value with unit) \ (Holding Time: for set preheat) \ (other parameters if set).`
 
