@@ -66,7 +66,25 @@ The first Foundational Model that was called after the vocal command was registe
 
 The importance of using a foundational model other than a more primitive language processing neural network or algorithm is that the same command can be phrased in countless ways, and a deeper understanding of the language is needed to make sure the command is properly processed. Futhermore, this model potentially can understand multiple commands at once.
 
-*Example: "Hey Oven, turn off!"; "Hey Oven, you can stop now"; "Hey Oven, end of the day for you, see you tomorrow!" --> {Command: On_or_Off, Value: Off}*
+*Example: "Hey Oven, turn off!"; "Hey Oven, you can stop now"; "Hey Oven, end of the day for you, see you tomorrow!"* --> `{Command: On_or_Off, Value: Off}`
 
-`test`
+This is the prompt I came up with:
+
+`Context: You are the assistent of a smart oven, taking informations from a human.\n\nHuman:
+post_prompt = '''\n
+Based on the above text, please don't answer, but encode the question in JSON format:
+Question: Temperature, Set_timer, or Stop_timer (else Not_Valid)
+Value: integer if Set_timer (else 0)
+Unit: Minutes or Seconds if Set_timer (else None).
+'''
+
+post_prompt = '''\n
+Based on the above text, please don't answer, but encode the question in JSON format:
+Question: On_or_Off, Mode, Working_Time, Humidity, Set_Humidity, Set_Preheat, Temperature, Set_Temperature, Set_timer, or Stop_timer (else Not_Valid)
+(Hours)
+(Minutes)
+(Seconds)
+(Value: value with unit)
+(Holding Time: for set preheat)
+(other parameters if set).`
 
