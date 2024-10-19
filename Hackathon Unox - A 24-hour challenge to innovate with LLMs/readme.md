@@ -44,4 +44,22 @@ A basic graph of the pipeline designed is shown below:
   <img src="images/llm_pipeline.png" height="400"/>
 </p>
 
-The cool part about this competition being in partnership with Amazon Web Services is that we were enabled to use the LLMs developed by Amazon, that is Antropic Claude and Amazon Bedrock.
+Since this competition was in partnership with Amazon Web Services, we were enabled to use the most powerful LLMs developed that far by Amazon, Antropic Claude and Amazon Bedrock.
+
+### LLM beta
+
+The first Foundational Model that was called after the vocal command was registered was LLM beta. This model had the objective of converting the vocal command into a json file with the essentials of the order given to the oven. We checked the oven's API and settled for the following commands as examples of use:
+
+| Command         | Description                      |
+| --------------- | -------------------------------- |
+| On_or_Off       | Turns the oven on or off         |
+| Mode            | Selects oven mode                |
+| Working_Time    | Asks for the current timer       |
+| Humidity        | Asks for the current humidity    |
+| Set_Humidity    | Sets humidity                    |
+| Set_Preheat     | Sets preheat temperature         |
+| Temperature     | Asks temperature                 |
+| Set_Temperature | Sets current temperature         |
+| Set_timer       | Sets timer                       |
+| Stop_timer      | Stops timer                      |
+| Not_Valid       | Command was not one of the above |
