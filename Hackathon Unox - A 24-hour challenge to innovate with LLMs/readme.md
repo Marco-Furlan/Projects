@@ -63,3 +63,10 @@ The first Foundational Model that was called after the vocal command was registe
 | Set_timer       | Sets timer                       |
 | Stop_timer      | Stops timer                      |
 | Not_Valid       | Command was not one of the above |
+
+The importance of using a foundational model other than a more primitive language processing neural network or algorithm is that the same command can be phrased in countless ways, and a deeper understanding of the language is needed to make sure the command is properly processed. Futhermore, this model potentially can understand multiple commands at once.
+
+*Example: "Hey Oven, turn off!"; "Hey Oven, you can stop now"; "Hey Oven, end of the day for you, see you tomorrow!" --> {Command: On_or_Off, Value: Off}*
+
+`test`
+
