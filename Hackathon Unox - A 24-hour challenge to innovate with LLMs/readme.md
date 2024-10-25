@@ -73,8 +73,14 @@ Here are some examples:
 | "Hey Oven, turn off!" | `{Command: On_or_Off, Value: Off}` |
 | "Hey Oven, you can stop now" | `{Command: On_or_Off, Value: Off}` |
 | "Hey Oven, end of the day for you, see you tomorrow!" | `{Command: On_or_Off, Value: Off}` |
+| "Hey Oven, set the humidity to 40%!" | `{Command: Set_Humidity, Value: 40}` |
+| "Hey Oven! What is the temperature?" | `{Command: Temperature}` |
+| "Hey Oven... On how many degrees are you set at the moment? | `{Command: Temperature}` |
 
 This is the prompt I came up with:
 
-`Context: You are the assistent of a smart oven, taking informations from a human. \\ \\ Human: Based on the above text, please don't answer, but encode the question in JSON format: Question: On_or_Off, Mode, Working_Time, Humidity, Set_Humidity, Set_Preheat, Temperature, Set_Temperature, Set_timer, or Stop_timer (else Not_Valid) \ (Hours) \ (Minutes) \ (Seconds) \ (Value: value with unit) \ (Holding Time: for set preheat) \ (other parameters if set).`
+```
+Context: You are the assistent of a smart oven, taking informations from a human.
+Human: Based on the above text, please don't answer, but encode the question in JSON format: Question: On_or_Off, Mode, Working_Time, Humidity, Set_Humidity, Set_Preheat, Temperature, Set_Temperature, Set_timer, or Stop_timer (else Not_Valid) \ (Hours) \ (Minutes) \ (Seconds) \ (Value: value with unit) \ (Holding Time: for set preheat) \ (other parameters if set).
+```
 
