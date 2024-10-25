@@ -31,12 +31,12 @@ I was in charge of points 2 and 3. Ultimately, we succeeded in completing everyt
 
 ## Generative AI
 
-My role in the team as the only Data Scientist in the group was to design and realise the pipeline which would've levered the LLM language capabilities to understand the input, correctly send the required command to the smart oven, and return a proper output.
+My role in the team as the only Data Scientist in the group was to design and realise the pipeline which would've levered the LLM's language capabilities to understand the input, correctly send the required command to the smart oven, and return a proper output.
 
 So I needed to engineer two separate LLMs:
 
-- **LLM beta**, which would be responsible for the convertion input text --> command,
-- **LLM alpha**, which would be responsible for the communication with the user (communicating whether the command was understood and what action was taken)
+- **LLM beta**, which would be responsible for the convertion from the input text to a standardized command,
+- **LLM alpha**, which would be responsible for the communication with the user.
 
 A basic graph of the pipeline designed is shown below:
 
@@ -64,9 +64,15 @@ The first Foundational Model that was called after the vocal command was registe
 | Stop_timer      | Stops timer                      |
 | Not_Valid       | Command was not one of the above |
 
-The importance of using a foundational model other than a more primitive language processing neural network or algorithm is that the same command can be phrased in countless ways, and a deeper understanding of the language is needed to make sure the command is properly processed. Futhermore, this model potentially can understand multiple commands at once.
+The importance of using a foundational model other than a more primitive language processing neural network or algorithm is that the same command can be phrased in countless ways, and a deeper understanding of the language is needed to make sure the command is properly processed. Futhermore, this model can understand multiple commands at once.
 
-*Example: "Hey Oven, turn off!"; "Hey Oven, you can stop now"; "Hey Oven, end of the day for you, see you tomorrow!"* --> `{Command: On_or_Off, Value: Off}`
+Here are some examples:
+
+| Message | LLM Beta's Output |
+| -------------- | -------------- |
+| "Hey Oven, turn off!" | `{Command: On_or_Off, Value: Off}` |
+| "Hey Oven, you can stop now" | `{Command: On_or_Off, Value: Off}` |
+| "Hey Oven, end of the day for you, see you tomorrow!" | `{Command: On_or_Off, Value: Off}` |
 
 This is the prompt I came up with:
 
