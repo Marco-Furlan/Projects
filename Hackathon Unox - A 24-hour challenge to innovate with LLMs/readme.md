@@ -81,6 +81,14 @@ This is the prompt I came up with:
 
 ```
 Context: You are the assistent of a smart oven, taking informations from a human.
-Human: Based on the above text, please don't answer, but encode the question in JSON format: Question: On_or_Off, Mode, Working_Time, Humidity, Set_Humidity, Set_Preheat, Temperature, Set_Temperature, Set_timer, or Stop_timer (else Not_Valid) \ (Hours) \ (Minutes) \ (Seconds) \ (Value: value with unit) \ (Holding Time: for set preheat) \ (other parameters if set).
+Human: Based on the above text, please don't answer, but encode the question in JSON format: Question: On_or_Off, Mode, Working_Time, Humidity, Set_Humidity, Set_Preheat, Temperature, Set_Temperature, Set_timer, or Stop_timer (else Not_Valid)
+(Hours)
+(Minutes)
+(Seconds)
+(Value: value with unit)
+(Holding Time: for set preheat)
+(other parameters if set).
 ```
+
+In hindsight not my cleanest prompt, but it got the job done. For some more advanced prompt engineering I would recommend checking my other project [Using GPT in Marketing](../Using%20GPT%20in%20Marketing).
 
