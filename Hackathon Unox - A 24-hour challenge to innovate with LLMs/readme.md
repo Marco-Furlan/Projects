@@ -90,5 +90,5 @@ Human: Based on the above text, please don't answer, but encode the question in 
 (other parameters if set).
 ```
 
-In hindsight not my cleanest prompt, but it got the job done. For some more advanced prompt engineering I would recommend checking my other project [Using GPT in Marketing](../Using%20GPT%20in%20Marketing).
+Not my cleanest prompt, but for a 24-hour project it got the job done and well. If you're interested in prompt engineering at a higher level I would recommend checking my other project [Using GPT in Marketing](../Using%20GPT%20in%20Marketing).
 
