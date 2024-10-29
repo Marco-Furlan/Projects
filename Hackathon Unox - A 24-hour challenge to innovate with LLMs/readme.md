@@ -94,4 +94,4 @@ Not my cleanest prompt, but for a 24-hour project it got the job done and well. 
 
 ### LLM alpha
 
-Once 
+Once the command is correctly registered, we want to communicate to the user the result of its request. To do so, we want to combine the original text input and the json file with the instructions sent to the oven. We want the model's response to be both coherent with the original request, and to communicate the information about the output. 
