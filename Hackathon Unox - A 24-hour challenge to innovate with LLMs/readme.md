@@ -94,4 +94,15 @@ Not my cleanest prompt, but for a 24-hour project it got the job done and well. 
 
 ### LLM alpha
 
-Once the command is correctly registered, we want to communicate to the user the result of its request. To do so, we want to combine the original text input and the json file with the instructions sent to the oven. We want the model's response to be both coherent with the original request, and to communicate the information about the output. 
+Once the command is correctly registered, we want to communicate to the user the result of its request. To do so, we want to combine the original text input and the json file with the instructions sent to the oven. We want the model's response to be both coherent with the original request, and to communicate the information about the output.
+
+This time, the prompt engineering was easier and we could settle on a short prompt powered by **RAG**, with a very basic pdf file which containes some examples of answers of the oven in different scenarios. In other words, we used RAG to define a **few-shot prompt** to promote the consistency of the model.
+
+```
+Context: you are a virtual assistant for an oven. You need to answer based on the example answers you have. Make sure to update the parameters in the answers based on the JSON file information.    
+Question: {question},
+JSON: {json},
+Answer:
+```
+
+
