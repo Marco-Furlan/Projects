@@ -35,8 +35,8 @@ My role in the team as the only Data Scientist in the group was to design and re
 
 So I needed to engineer two separate LLMs:
 
-- **LLM beta**, which would be responsible for the convertion from the input text to a standardized command,
-- **LLM alpha**, which would be responsible for the communication with the user.
+- [**LLM beta**](#llm-beta), which would be responsible for the convertion from the input text to a standardized command,
+- [**LLM alpha**](#llm-alpha), which would be responsible for the communication with the user.
 
 A basic graph of the pipeline designed is shown below:
 
@@ -48,7 +48,7 @@ Since this competition was in partnership with Amazon Web Services, we were enab
 
 ### LLM beta
 
-The first Foundational Model that was called after the vocal command was registered was LLM beta. This model had the objective of converting the vocal command into a json file with the essentials of the order given to the oven. We checked the oven's API and settled for the following commands as examples of use:
+LLM beta is the foundational model that is used right after the vocal command is converted into text. This model has the objective of converting the vocal command into a json file with the essentials of the order given to the oven. We checked the oven's API and settled for the following commands as examples of use:
 
 | Command         | Description                      |
 | --------------- | -------------------------------- |
@@ -64,7 +64,7 @@ The first Foundational Model that was called after the vocal command was registe
 | Stop_timer      | Stops timer                      |
 | Not_Valid       | Command was not one of the above |
 
-The importance of using a foundational model other than a more primitive language processing neural network or algorithm is that the same command can be phrased in countless ways, and a deeper understanding of the language is needed to make sure the command is properly processed. Futhermore, this model can understand multiple commands at once.
+The importance of using a foundational model rather than a more primitive language processing neural network or algorithm is that the same command can be phrased in countless ways, and a deeper understanding of the language is needed to make sure the command is properly processed. Futhermore, this model can understand multiple commands at once.
 
 Here are some examples:
 
@@ -90,5 +90,8 @@ Human: Based on the above text, please don't answer, but encode the question in 
 (other parameters if set).
 ```
 
-Not my cleanest prompt, but for a 24-hour project it got the job done and well. If you're interested in prompt engineering at a higher level I would recommend checking my other project [Using GPT in Marketing](../Using%20GPT%20in%20Marketing).
+Not my cleanest prompt, but for a 24-hour project it got the job done and well. If you're interested in prompt engineering at a higher level I would recommend checking my other project on [Using GPT in Marketing](../Using%20GPT%20in%20Marketing).
 
+### LLM alpha
+
+Once 
