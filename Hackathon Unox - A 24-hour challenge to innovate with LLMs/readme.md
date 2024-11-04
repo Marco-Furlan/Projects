@@ -90,7 +90,7 @@ Human: Based on the above text, please don't answer, but encode the question in 
 (other parameters if set).
 ```
 
-Not my cleanest prompt, but for a 24-hour project it got the job done and well. If you're interested in prompt engineering at a higher level I would recommend checking my other project on [Using GPT in Marketing](../Using%20GPT%20in%20Marketing).
+A simple prompt but it got the job done. If you're interested in prompt engineering at a higher level I would recommend checking my other project on [Using GPT in Marketing](../Using%20GPT%20in%20Marketing).
 
 ### LLM alpha
 
