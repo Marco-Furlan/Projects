@@ -108,7 +108,7 @@ Answer:
 ### Conclusion? 3rd place!🥉
 
 <p align="center">
-  <img src="images/presentation-01.png" width="550"/>
+  <img src="images/Presentation-01.png" width="550"/>
 </p>
 
 After the 24 hours were done, I took the role of speechman for my team. Thanks to the amazing job of my teammates, the judges really liked the creativity and innovation of our approach and finally decided we were worthy of our spot on the podium! This was against all odds since unlike other groups, none of us knew each other beforehand. After a confused start we combined the skills of the different people present in the group and we built a successful teamwork.
