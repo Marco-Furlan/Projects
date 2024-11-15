@@ -9,7 +9,7 @@ The Hackathon by [Unox](https://www.unox.com/) (in collaboration with [Amazon We
 Given the upcoming era of AR, me and my team came up with the idea of connecting AR smart glasses and the advanced Unox ovens to allow for a hands-free, fully voice-based control. The pipeline works as follows:
 
 <p align="center">
-  <img src="images/our_code.png" width="550"/>
+  <img src="images/our_code.jpg" width="550"/>
 </p>
 
 So we needed:
@@ -41,7 +41,7 @@ So I needed to engineer two separate LLMs:
 A basic graph of the pipeline designed is shown below:
 
 <p align="center">
-  <img src="images/llm_pipeline.png" height="400"/>
+  <img src="images/llm_pipeline.jpg" height="400"/>
 </p>
 
 Since this competition was in partnership with Amazon Web Services, we were enabled to use the most powerful LLMs developed that far by Amazon, Antropic Claude and Amazon Bedrock.
@@ -108,7 +108,7 @@ Answer:
 ### Conclusion? 3rd place!🥉
 
 <p align="center">
-  <img src="images/Presentation-01.png" width="550"/>
+  <img src="images/CERTIFICATO VINCITORI_Marco Furlan.jpg" width="550"/>
 </p>
 
 After the 24 hours were done, I took the role of speechman for my team. Thanks to the amazing job of my teammates, the judges really liked the creativity and innovation of our approach and finally decided we were worthy of our spot on the podium! This was against all odds since unlike other groups, none of us knew each other beforehand. After a confused start we combined the skills of the different people present in the group and we built a successful teamwork.

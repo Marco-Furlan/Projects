@@ -1,7 +1,7 @@
 # Approximation Algorithms for Minimal Connected Vertex Covers
 
 <p align="center">
-  <img src="images/cvc.png" alt="" width="500"/>
+  <img src="images/cvc.jpg" alt="" width="500"/>
 </p>
 
 ## Introduction
@@ -33,7 +33,7 @@ I conducted a first theoretical work to set the mathematical foundation of the w
 ### DFS-CVC
 
 <p align="center">
-  <img src="images/DFS_CVC_2.png" alt="" width="500"/>
+  <img src="images/DFS_CVC_2.jpg" alt="" width="500"/>
 </p>
 
 The DFS-CVC consists in running the Depth First Search algorithm to define a covering tree of the graph, and then selecting the non-leaf nodes as the CVC. Proving that this set of vertices is a Vertex Cover is trivial, and similarly that it is connected.
@@ -87,6 +87,6 @@ But the effect is significant, as we can see from the table below. We highlight:
 - in gray results that couldn't be improved (MVC stands for Mimimum Vertex Cover: it is a lower bound for Minimal CVC).
 
 <p align="center">
-  <img src="images/GRASP_CVC_star.png" alt="" width="700"/>
+  <img src="images/GRASP_CVC_star.jpg" alt="" width="700"/>
 </p>
 
