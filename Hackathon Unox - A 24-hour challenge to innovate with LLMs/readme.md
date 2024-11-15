@@ -1,7 +1,7 @@
 # Hackathon Unox & AWS - A 24-hour challenge to innovate with LLMs
 
 <p align="center">
-  <img src="images/hackathon.jpg" width="400"/>
+  <img src="images/CERTIFICATO VINCITORI_Marco Furlan.jpg" width="400"/>
 </p>
 
 The Hackathon by [Unox](https://www.unox.com/) (in collaboration with [Amazon Web Services](https://aws.amazon.com)) is a 24-hour coding challenge focused on utilizing LLMs to discover feasible technical innovations for the company's user interfaces. The LLMs we used, such as [Anthropic Claude](https://www.anthropic.com/claude), [Amazon Titan](https://aws.amazon.com/it/bedrock/titan/) and [Stability AI](https://stability.ai/) were provided to us by Amazon Web Services.
