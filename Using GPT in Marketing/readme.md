@@ -9,7 +9,7 @@ In the past few years, GPT and other large language models based on the **transf
 <p align="center">
   <img src="images/covers.gif" height="400"/>
   <br>
-  Your centered text goes here.
+  <i>GPT-generated images, the prompt is the same as the cover image</i>
 </p>
 
 
