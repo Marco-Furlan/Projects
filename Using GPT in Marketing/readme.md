@@ -18,7 +18,6 @@ GPT, or **Generative Pre-trained Transformer**, uses massive training data to pr
 
 
 <figure align="center">
-  <img src="images/
-transformer.jpg" height="400" alt="The transformer architecture"/>
+  <img src="images/transformer.jpg" height="400" alt="The transformer architecture"/>
   <figcaption>The transformer architecture from the paper "Attention Is All You Need"</figcaption>
 </figure>
