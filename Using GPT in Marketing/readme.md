@@ -17,7 +17,9 @@ In the past few years, GPT and other large language models based on the **transf
 
 GPT, or **Generative Pre-trained Transformer**, uses massive training data to predict and generate human-like text, building on the encoder-decoder attention mechanisms from the influential "Attention Is All You Need" paper. Each GPT iteration has shown significant improvements, enabling nuanced prompt understanding and **few-shot learning**. Despite its strengths, GPT outputs may need fine-tuning or validation for accuracy. Success stories highlight combining **prompt engineering** with collaborative expertise for optimal results.
 
-<figure align="center">
-  <img src="images/transformer.jpg" height="400" alt="The transformer architecture"/>
-  <figcaption>The transformer architecture from the paper "Attention Is All You Need"</figcaption>
-</figure>
+
+<p align="center">
+  <img src="images/transformer.jpg" height="400"/>
+  <br>
+  <i>The transformer architecture from the paper "Attention Is All You Need"</i>
+</p>
