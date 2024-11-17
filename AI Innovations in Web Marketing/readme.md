@@ -7,7 +7,7 @@
   <i>same prompt, different images with OpenAI's Dall-E 3</i>
 </p>
 
-From May to October 2024 I received a scolarship at the **University of Padua** and worked as a researcher for the **Human Inspired Technologies Research Centre - HIT**, with professors Alessandro Sperduti and Marco Zorzi. I played a key role in a project funded by the region to **implement innovation in a company**. The company in question is [SiteBySite](https://www.sitebysite.it/), a professional web marketing company situated in Padua and Milan.
+From May to October 2024, I was awarded a scholarship from the **University of Padua**, during which I worked as a researcher for **[SiteBySite](https://www.sitebysite.it/)**, a leading **web marketing company** with offices in Padua and Milan. My primary focus was contributing to a region-funded project aimed at integrating **advanced AI innovations** across various aspects of the company's operations. The scholarship was funded by the **Human Inspired Technologies Research Centre (HIT)**, under the guidance of professors Alessandro Sperduti and Marco Zorzi.
 
 <!-- <p align="center">
   <img src="images/cover_8.jpg" height="350"/>
@@ -25,3 +25,5 @@ GPT, or **Generative Pre-trained Transformer**, uses massive training data to pr
   <br>
   <i>The transformer architecture from the paper "Attention Is All You Need"</i>
 </p>
+
+### SiteBySite
