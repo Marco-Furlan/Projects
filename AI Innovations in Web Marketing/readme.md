@@ -29,7 +29,7 @@ GPT, or **Generative Pre-trained Transformer**, uses massive training data to pr
 ### Work in progress...
 
 <p align="center">
-  <img src="images/GPT building the future.jpg" width = 300 style="max-width: 100%; height: auto;"/>
+  <img src="images/GPT building the future.jpg" width = 500 style="max-width: 100%; height: auto;"/>
   <br>
   <i>I'm in the process of writing this page! Will be done soon!</i>
 </p>
