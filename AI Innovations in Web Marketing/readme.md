@@ -1,7 +1,8 @@
 # AI Innovations in Web Marketing
 
 <p align="center">
-  <img src="images/covers.gif" height="400"/>
+  <!--  style="max-width: 100%; height: auto;" height="400" -->
+  <img src="images/covers.gif"/>
   <br>
   <i>same prompt, different images with OpenAI's Dall-E 3</i>
 </p>
@@ -20,7 +21,7 @@ In the past few years, GPT and other large language models based on the **transf
 GPT, or **Generative Pre-trained Transformer**, uses massive training data to predict and generate human-like text, building on the encoder-decoder attention mechanisms from the influential "Attention Is All You Need" paper. Each GPT iteration has shown significant improvements, enabling nuanced prompt understanding and **few-shot learning**. Despite its strengths, GPT outputs may need fine-tuning or validation for accuracy. Success stories highlight combining **prompt engineering** with collaborative expertise for optimal results.
 
 <p align="center">
-  <img src="images/transformer.jpg" height="400"/>
+  <img src="images/transformer.jpg" width = 300 style="max-width: 100%; height: auto;"/>
   <br>
   <i>The transformer architecture from the paper "Attention Is All You Need"</i>
 </p>
