@@ -51,6 +51,8 @@ Infographics combine concise text, striking visuals, and data-driven insights to
   <br>
 </p>
 
+[...]
+
 ## Generation of web blogs and Instagram posts
 
 <p align="center">
@@ -58,12 +60,16 @@ Infographics combine concise text, striking visuals, and data-driven insights to
   <br>
 </p>
 
+[...]
+
 ## Generation of infographics
 
 <p align="center">
-  <img src="images/GPT_Buyer_Personas.gif" width = 400 style="max-width: 100%; height: auto;"/>
+  <img src="images/GPT_infographics.jpg" width = 400 style="max-width: 100%; height: auto;"/>
   <br>
 </p>
+
+[...]
 
 ### GPT: A quick introduction
 
