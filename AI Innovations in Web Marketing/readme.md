@@ -7,11 +7,63 @@
   <i>same prompt, different images with OpenAI's Dall-E 3</i>
 </p>
 
-From May to October 2024, I was awarded a scholarship from the **University of Padua**, during which I worked as a researcher for **[SiteBySite](https://www.sitebysite.it/)**, a leading **web marketing company** with offices in Padua and Milan. My primary focus was contributing to a region-funded project aimed at integrating **advanced AI innovations** across various aspects of the company's operations. The scholarship was funded by the **Human Inspired Technologies Research Centre (HIT)**, under the guidance of professors Alessandro Sperduti and Marco Zorzi.
+From May to October 2024, I was awarded a scholarship from the **University of Padua**, during which I worked as a researcher for **[SiteBySite](https://www.sitebysite.it/)**, a leading **web marketing company** with offices in Padua and Milan. My primary focus was contributing to a region-funded project aimed at integrating **advanced AI innovations** across various aspects of the company's operations. The scholarship was funded by the **Human Inspired Technologies Research Centre (HIT)**, under the guidance of professors [Alessandro Sperduti](https://www.math.unipd.it/~sperduti/) and [Marco Zorzi](https://www.dpg.unipd.it/en/marco-zorzi/).
 
 <!-- <p align="center">
   <img src="images/cover_8.jpg" height="350"/>
 </p> -->
+
+## The 3 applications of AI in Web Marketing
+
+With [Alberto Narenti](https://www.sitebysite.it/noi/adv-team/alberto-narenti/) and [Riccardo Coni](https://www.sitebysite.it/noi/pm-team/riccardo-coni/), respectively ADV Manager and Project Manager at SiteBySite, we settled on three case studies to test the effectiveness of AI in different work areas of the company:
+
+1. **Creation of Buyer Personas**
+
+<p align="center">
+  <img src="images/GPT_Buyer_Personas_8.jpg" width = 250 style="max-width: 100%; height: auto;"/>
+  <br>
+</p>
+
+Developing buyer personas is a critical step for a company to deeply understand its target audience. These semi-fictional representations, based on market research and real customer data, help marketers identify the preferences, behaviors, and challenges of their ideal customers. Buyer personas serve as a foundation for creating personalized and effective marketing campaigns.
+
+2. **Generation of web blogs and Instagram posts**
+
+<p align="center">
+  <img src="images/GPT_Blog_post_3.jpg" width = 250 style="max-width: 100%; height: auto;"/>
+  <br>
+</p>
+
+Creating web blogs and Instagram posts is essential for building a strong online presence and engaging target audiences. By consistently generating high-quality, audience-focused content for both platforms, businesses can boost brand awareness, establish credibility, and encourage meaningful engagement, turning followers into loyal customers.
+
+3. **Generation of infographics**
+
+<p align="center">
+  <img src="images/GPT_Infographics.jpg" width = 250 style="max-width: 100%; height: auto;"/>
+  <br>
+</p>
+
+Infographics combine concise text, striking visuals, and data-driven insights to capture attention and enhance understanding. For a company, they serve as an effective tool to engage audiences by simplifying concepts and telling compelling stories through design.
+
+## Creation of Buyer Personas
+
+<p align="center">
+  <img src="images/GPT_Buyer_Personas.gif" width = 400 style="max-width: 100%; height: auto;"/>
+  <br>
+</p>
+
+## Generation of web blogs and Instagram posts
+
+<p align="center">
+  <img src="images/GPT_Blog_post.gif" width = 400 style="max-width: 100%; height: auto;"/>
+  <br>
+</p>
+
+## Generation of infographics
+
+<p align="center">
+  <img src="images/GPT_Buyer_Personas.gif" width = 400 style="max-width: 100%; height: auto;"/>
+  <br>
+</p>
 
 ### GPT: A quick introduction
 
