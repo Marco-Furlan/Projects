@@ -74,7 +74,7 @@ Infographics combine concise text, striking visuals, and data-driven insights to
 ## Generation of infographics
 
 <p align="center">
-  <img src="images/GPT_infographics.jpg" width = 400 style="max-width: 100%; height: auto;"/>
+  <img src="images/GPT_infographics_2.jpg" width = 400 style="max-width: 100%; height: auto;"/>
   <br>
 </p>
 
