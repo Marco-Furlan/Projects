@@ -60,7 +60,56 @@ Infographics combine concise text, striking visuals, and data-driven insights to
   <br>
 </p>
 
-[...]
+Creating buyer personas requires combining **informations about the company** and a solid **marketing knowledge**.
+We researched the most popular prompts for Buyer Personas generations and settled on 3 casistisc:
+
+
+| Prompt Baseline | Prompt "Dalla Bona" | Prompt KE |
+|- | -| -|
+| A minimalist baseline prompt | A 3-step prompt, providing 1. Segmentation, 2. Details per persona, 3. Specialist programs and topics | A complete prompt requiring demographic and psicographic details about the buyer persona |
+| - | [link](https://www.linkedin.com/posts/giovannidallabona_3-prompt-per-il-marketing-ugcPost-7217823801663770624-SkR0/?utm_source=share&utm_medium=member_desktop) | [link1](https://www.youtube.com/watch?v=GwUhlpe1ri8), [link2](https://www.youtube.com/watch?v=FGF8RusTIQ0) *(they likely both found the prompt, the original source is unknown)* |
+
+A quick commentary on each:
+
+1. **Prompt Baseline**: will give a lot of insightful details but in a random, non-repeatable way: we have no control over the output and it will creatively decide what to include and what not to;
+
+2. **Prompt "Dalla Bona"**: much more detailed and complete prompt. The segmentation step is clean and gives satisfying results. The profilation is nice but not as much as the one given by the 3rd prompt;
+
+3. **Prompt KE**: a fully organized and exact prompt, which will give the same output structure at every iteration. The demographic and psicographic profilation is rich of facts and details and can be personalized freely.
+
+### Steps to get Segmentation and Profilation of Buyer Personas through GPT
+
+Here's the process you can follow to get a Segmentation and Profilation of a Buyer Persona for any company. 
+
+**Step 1: Segmentation**
+
+Below the prompt and an example of use:
+
+```md
+You are a Marketing expert, specialized in market segmentation, targeting, and defining buyer personas. Help me identify potential buyer personas for my business "*Business name and location*". Suggest possible Buyer Personas based on the theories of the Business Model Canvas by Alexander Osterwalder & Yves Pigneur and their segmentation methods. For each buyer persona, provide only the key elements to identify them, such as a category and a few demographic and descriptive elements.
+
+You can look up the following websites for informations:
+- *http://www.example.com/index.html*
+- *url 2*
+- ...
+```
+
+<p align="center">
+  <!--  style="max-width: 100%; height: auto;" height="400" -->
+  <img src="images/GPT_Screenshot_01.png"/>
+  <br>
+  <i>same prompt, different images with OpenAI's Dall-E 3</i>
+</p>
+
+
+
+```md
+asdasd
+```
+
+
+The process of creating Buyer Personas was fully automated through a **Google Spreadsheet** and **Google Apps Script**, which of course I can't share here.
+
 
 ## Generation of web blogs and Instagram posts
 
