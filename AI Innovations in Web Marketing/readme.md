@@ -107,7 +107,7 @@ You should include the business description, or use the same chat as the previou
 <p align="center">
   <img src="images/GPT_Screenshot_02.png"  width = 660 style="max-width: 100%; height: auto;"/>
   <br>
-  <img src="images/GPT_Screenshot_03.png"  width = 600 style="max-width: 100%; height: auto;"/>
+  <img src="images/GPT_Screenshot_03.png"  width = 660 style="max-width: 100%; height: auto;"/>
   <br>
   <i></i>
 </p>
