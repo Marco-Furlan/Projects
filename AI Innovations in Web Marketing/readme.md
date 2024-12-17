@@ -44,15 +44,6 @@ Creating web blogs and Instagram posts is essential for building a strong online
 
 Infographics combine concise text, striking visuals, and data-driven insights to capture attention and enhance understanding. For a company, they serve as an effective tool to engage audiences by simplifying concepts and telling compelling stories through design.
 
-
-# Work in progress...
-
-<p align="center">
-  <img src="images/GPT building the future.jpg" width = 500 style="max-width: 100%; height: auto;"/>
-  <br>
-  <i>I'm in the process of writing the following of this page! Will be done soon!</i>
-</p>
-
 ## Creation of Buyer Personas
 
 <p align="center">
@@ -121,6 +112,16 @@ You should include the business description, or use the same chat as the previou
   <i></i>
 </p>
 
+
+
+
+# Work in progress...
+
+<p align="center">
+  <img src="images/GPT building the future.jpg" width = 500 style="max-width: 100%; height: auto;"/>
+  <br>
+  <i>I'm in the process of writing the following of this page! Will be done soon!</i>
+</p>
 
 ## Generation of web blogs and Instagram posts
 
