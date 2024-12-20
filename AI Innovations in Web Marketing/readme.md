@@ -59,14 +59,21 @@ We researched the most popular prompts for Buyer Personas generations and settle
 |- | -| -|
 | A minimalist baseline prompt | A 3-step prompt, providing 1. Segmentation, 2. Details per persona, 3. Specialist programs and topics | A complete prompt requiring demographic and psicographic details about the buyer persona |
 | - | [link](https://www.linkedin.com/posts/giovannidallabona_3-prompt-per-il-marketing-ugcPost-7217823801663770624-SkR0/?utm_source=share&utm_medium=member_desktop) | [link1](https://www.youtube.com/watch?v=GwUhlpe1ri8), [link2](https://www.youtube.com/watch?v=FGF8RusTIQ0) *(they likely both found the prompt, the original source is unknown)* |
-| - | [see prompt](./Prompt "Dalla Bona") | [see prompt](./Prompt KE) |
-A quick commentary on each:
+| [see prompt](#prompt-baseline) | [see prompt](#prompt-dalla-bona) | [see prompt](#prompt-ke) |
 
-1. **Prompt Baseline**: will give a lot of insightful details but in a random, non-repeatable way: we have no control over the output and it will creatively decide what to include and what not to;
+### Prompt baseline
 
-2. **Prompt "Dalla Bona"**: much more detailed and complete prompt. The segmentation step is clean and gives satisfying results. The profilation is nice but not as much as the one given by the 3rd prompt;
+```md
 
-3. **Prompt KE**: a fully organized and exact prompt, which will give the same output structure at every iteration. The demographic and psicographic profilation is rich of facts and details and can be personalized freely.
+Do a Buyer Persona segmentation of the business [...]
+
+You can look up the following websites for informations:
+- ...
+- ...
+
+```
+
+This prompt will give a lot of insightful details but randomly organised. We have no control over the output and it will creatively decide what to include and what not to.
 
 ### Prompt "Dalla Bona"
 
@@ -75,8 +82,8 @@ A quick commentary on each:
 You are a Marketing expert, specialized in market segmentation, targeting, and defining buyer personas. Help me identify potential buyer personas for my business "*Business name and location*". Suggest possible Buyer Personas based on the theories of the Business Model Canvas by Alexander Osterwalder & Yves Pigneur and their segmentation methods. For each buyer persona, provide only the key elements to identify them, such as a category and a few demographic and descriptive elements.
 
 You can look up the following websites for informations:
-- *http://www.example.com/index.html*
-- *...*
+- ...
+- ...
 ```
 
 Here's an example of output with the Amusement Park Gardaland (Verona, IT):
@@ -84,7 +91,7 @@ Here's an example of output with the Amusement Park Gardaland (Verona, IT):
 <p align="center">
   <img src="images/GPT_Screenshot_01.png"  width = 600 style="max-width: 100%; height: auto;"/>
   <br>
-  <i>same prompt, different images with OpenAI's Dall-E 3</i>
+  <i></i>
 </p>
 
 ## Prompt KE
