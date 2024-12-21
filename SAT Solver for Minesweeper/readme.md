@@ -91,4 +91,4 @@ Some improvements that I didn't implement because out of the scope of this proje
 
 - The initial random guesses should take into account previous random guesses but they do not at the moment. So the algorithm could guess a cell neighboring a 4, which is obviously a bad guess with 50% probability of failure.
 
-- The algorithm does not take into account the information of how many total cells are left. This is a very expensive information in opening and midgame (generates too many propositions), but it should be accounted for in the endgame (for example when <10% of cells are left).
+- The algorithm does not take into account the information of how many mines are left, which is commonly given in the standard minesweeper game. This is a very expensive piece of information for the SAT solver in opening and midgame (it generates too many propositions), but it can and should be accounted for in the endgame (say when 12 or less cells are left).
