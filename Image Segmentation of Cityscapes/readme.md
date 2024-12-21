@@ -21,7 +21,7 @@ Our contributions were:
 
 A full breakdown of the model architectures, training and testing methodologies is done in the [report](report.pdf). You can get a fast visual overview of these topics from the [presentation](presentation.pdf). We show here some performance metrics:
 
-![](images/results.png)
+![](images/results.jpg)
 
 We will consider the Macro [^1] metric for the comparison. UNet performs terribly despite being trained on less classes [^2], and the best performing model among the three is the DenseASPP.
 
@@ -44,4 +44,4 @@ As part of the presentation we included a [video](https://www.youtube.com/watch?
 
 Click the link above or the image below to open it.
 
-[![Watch the video](images/youtube_frame.png)](https://www.youtube.com/watch?v=U-L6mPUYhu0)
+[![Watch the video](images/youtube_frame.jpg)](https://www.youtube.com/watch?v=U-L6mPUYhu0)

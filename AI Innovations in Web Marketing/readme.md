@@ -128,7 +128,9 @@ You should include the business description, or use the same chat as the previou
   <br>
 </p>
 
-[...]
+Writing blogs and preparing advertisements on diverse social platforms (Instagram, Facebook, Twitter) is a very time-consuming task. LLM's are an ideal tool for speeding up the process.
+
+Using GPT, through techniques such as 
 
 ## Generation of infographics
 
