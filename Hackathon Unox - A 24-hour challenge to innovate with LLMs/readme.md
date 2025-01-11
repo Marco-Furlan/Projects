@@ -113,4 +113,4 @@ Answer:
 
 After the 24 hours were done, I took the role of speechman for my team. Thanks to the amazing job of my teammates, the judges really liked the creativity and innovation of our approach and finally decided we were worthy of our spot on the podium! This was against all odds since unlike other groups, none of us knew each other beforehand. After a confused start we combined the skills of the different people present in the group and we built a successful teamwork.
 
-This challenge also gave me a headstart in prompt engineering, and a couple months later I accepted a 4-months scolarship as a researcher in LLM to apply prompt engineering for a digital marketing company, if you're curious to see more details check out [Using GPT in Marketing](../Using%20GPT%20in%20Marketing)!
+This challenge also gave me a headstart in prompt engineering, and a couple months later I accepted a 4-months scolarship as a researcher in LLM to apply prompt engineering for a digital marketing company, if you're curious to see more details check out [Using GPT in Marketing](../AI%20Innovations%20in%20Web%20Marketing)!
